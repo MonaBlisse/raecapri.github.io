@@ -1,0 +1,58 @@
+$highlight: #ee4a78
+$dark-grey: #212121
+$light-grey: #d7d7d7
+
+*
+	box-sizing: border-box
+
+body
+	font-family: 'Belleza', san-serif
+
+h1, h2, h3, h4, h5, h6
+	font-family: 'Montserrat', sans-serif
+
+.cf:before, .cf:after
+	content: " "
+	display: table
+
+.cf:after
+	clear: both
+
+.container
+	width: 1000px
+	max-width: 100%
+	margin: 0 auto
+	padding: 0 0.8em
+
+#main-header
+	height: 100px
+	border-top: 5px solid $highlight
+	border-bottom: 3px solid $light-grey
+
+#logo
+	float: left
+
+#nav
+	float: right
+	padding-top: 2.5em
+	a
+		color: $dark-grey
+		text-decoration: none
+		margin-left: 2em
+		transition: all ease-in-out 0.3s
+		&:hover
+			color: $highlight
+
+#banner
+	height: 500px
+	background: 
+		image: url('/assets/img/banner-pattern-white.svg')
+		color: $dark-grey
+	h1
+		color: white
+		margin: 0
+
+
+
+
+
